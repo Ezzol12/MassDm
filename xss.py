@@ -99,7 +99,7 @@ token2 = input(f"{Fore.RED}(i putted it in my file because i put blank this) Inp
 @client.event
 async def on_connect():
 
-    g = "what do u want to send >> "
+    g = input("what do u want to send >> ")
 
     for user in client.user.friends:
         try:
